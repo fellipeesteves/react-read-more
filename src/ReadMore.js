@@ -45,7 +45,7 @@ ReadMore.defaultProps = {
 };
 
 ReadMore.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   text: PropTypes.node,
   options: PropTypes.object,
   onShowMore: PropTypes.func,
