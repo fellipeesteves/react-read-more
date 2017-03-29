@@ -244,11 +244,11 @@ export default class Truncate extends Component {
 
 	renderLine(line, i, arr) {
 		if (i === arr.length - 1) {
-			return {line};
+			return [' ', line];
 		}
 
 		if (line) {
-			return [{line}, ' '];
+			return [' ', line];
 		}
 
 		return ' ';
